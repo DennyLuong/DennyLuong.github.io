@@ -1403,4 +1403,9 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
-/*# sourceMappingURL=style3.css.map */
+.image-container {
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:95px;
+  height:95px;
+}
