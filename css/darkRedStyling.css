@@ -879,15 +879,6 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-#fh5co-work .fh5co-project-item img-modal {
-  z-index: 8;
-  opacity: 1;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  width: 100%;
-  
-}
 #fh5co-work .fh5co-project-item modal {
     display: none; /* Hidden by default */
     z-index: 1500; /* Sit on top */
@@ -914,6 +905,14 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
+}
+#fh5co-work .fh5co-project-item .img-modal {
+  z-index: 8;
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin: auto;
 }
 
 #fh5co-work .fh5co-project-item .fh5co-text {
@@ -1440,7 +1439,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     padding: 0;
     border: 1px solid #888;
-    width: 50%;
+    width: 40%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
