@@ -732,7 +732,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2em;
   float: left;
 }
-#fh5co-testimonials .speech-bubble {
+#fh5co-testimonials .speech-bubble-left {
   position: relative;
   background: #b71c1c;
   color: #fff;
@@ -741,7 +741,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   border-radius: .4em;
 }
-#fh5co-testimonials .speech-bubble:after
+#fh5co-testimonials .speech-bubble-left:after
 {
   content: '';
   position: absolute;
@@ -756,6 +756,54 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 0;
   margin-top: -10px;
   margin-left: -20px;
+}
+#fh5co-testimonials .speech-bubble-mid {
+  position: relative;
+  background: #b71c1c;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  border-radius: .4em;
+}
+#fh5co-testimonials .speech-bubble-mid:after
+{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #a60000;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -10px;
+  margin-bottom: -20px;
+}
+#fh5co-testimonials .speech-bubble-right {
+  position: relative;
+  background: #b71c1c;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  border-radius: .4em;
+}
+#fh5co-testimonials .speech-bubble-right:after
+{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-left-color: #a60000;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -10px;
+  margin-right: -20px;
 }
 #fh5co-testimonials .box-testimony a {
   color: rgba(255, 255, 255, 0.5);
