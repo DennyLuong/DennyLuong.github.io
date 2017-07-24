@@ -557,6 +557,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
   padding: 4em 0;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
     padding: 2em 0;
@@ -730,6 +731,31 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimonials .box-testimony {
   margin-bottom: 2em;
   float: left;
+}
+#fh5co-testimonials .speech-bubble {
+  position: relative;
+  background: #b71c1c;
+  color: #fff;
+  width: 1000px;
+  margin: auto;
+  padding: 10px;
+  border-radius: .4em;
+}
+#fh5co-testimonials .speech-bubble:after
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-right-color: #b71c1c;
+  color: #fff;
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -10px;
+  margin-left: -20px;
 }
 #fh5co-testimonials .box-testimony a {
   color: rgba(255, 255, 255, 0.5);
