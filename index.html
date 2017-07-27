@@ -78,8 +78,7 @@
 							Software Development Intern <br/>
 							Salesforce Classic and Lightning <br/> + <br/> Selenium Java
 						</p>
-						<!-- TODO:  -->
-						<p><a href="#"class="btn btn-primary">Projects from Liberty</a></p>
+						<p><a href="#liberty" class="btn btn-primary">Projects from Liberty</a></p>
 					</div>
 				</div>
 				<div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
@@ -92,7 +91,7 @@
 							Software Development Intern <br/>
 							Selenium C# and JS <br/> + <br/> Android App Development
 						</p>
-						<p><a href="#" class="btn btn-primary">Projects from Securus</a></p>
+						<p><a href="#STOPLLC" class="btn btn-primary">Projects from Securus</a></p>
 					</div>
 				</div>
 				<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
@@ -102,7 +101,7 @@
 						<img class="image-container" src="images/DL_logo.png"/>
 						<h2>Hobbyist</h2>
 						<p>Android App Developer, Artificial Intelligence Enthusiast, Car Fanatic, Technology Lover, Cooking Aficionado, Education and Environment Supporter</p>
-						<p><a href="#" class="btn btn-primary">Projects from Me</a></p>
+						<p><a href="#myprojects" class="btn btn-primary">Projects from Me</a></p>
 					</div>
 				</div>
 			</div>
@@ -155,9 +154,11 @@
 				</div>
 			</div>
 			<div class="row row-bottom-padded-sm">
-				<font size="6px" color="white">
-					<p>Personal Projects</p>
-				</font>
+				<div id="myprojects">
+					<font size="6px" color="white">
+						<p>Personal Projects</p>
+					</font>
+				</div>
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a id="myBtn" class="fh5co-project-item to-animate">
 						<img src="images/work_1.jpg" class="img-responsive">
@@ -215,9 +216,11 @@
 						</div>
 					</a>
 				</div>
-				<font size="6px" color="white">
-					<p>Satellite Track of People LLC Projects</p>
-				</font>
+				<div id="STOPLLC">
+					<font size="6px" color="white">
+						<p>Satellite Track of People LLC Projects</p>
+					</font>
+				</div>
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/work_4.jpg" class="fh5co-project-item image-popup to-animate">
 						<img src="images/work_4.jpg" alt="Image" class="img-responsive">
@@ -247,7 +250,7 @@
 				</div>
 
 				<div class="clearfix visible-sm-block"></div>
-				<div name="liberty">
+				<div id="liberty">
 					<font size="6px" color="white">
 						<p>Liberty Projects</p>
 					</font>
@@ -305,6 +308,25 @@
 			</div>
 		</div>
 
+		<!-- Modal Creation -->
+		<div class="fh5co-project-item">
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+						<center><img src="images/work_1.jpg"/></center>
+					<div class="fh5co-text">
+						<span class="close">&times;</span>
+						<h4>Good Samaritan</h4>
+					</div>
+					<div class="fh5co-text">
+						<p>Android Application in progess.</p>
+						<p>This app is focused around getting people together with just a click on their phone.
+								Good Samritan will track down locations of nearby volunteering opportunities as well as
+								find others around you who are looking to go volunteer as a group.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</section>
 
@@ -583,26 +605,15 @@
 	</footer>
 
 	<script>
-	// Get the modal
 	var modal = document.getElementById('myModal');
-
-	// Get the button that opens the modal
 	var btn = document.getElementById("myBtn");
-
-	// Get the <span> element that closes the modal
 	var span = document.getElementsByClassName("close")[0];
-
-	// When the user clicks the button, open the modal
 	btn.onclick = function() {
 	    modal.style.display = "block";
 	}
-
-	// When the user clicks on <span> (x), close the modal
 	span.onclick = function() {
 	    modal.style.display = "none";
 	}
-
-	// When the user clicks anywhere outside of the modal, close it
 	window.onclick = function(event) {
 	    if (event.target == modal) {
 	        modal.style.display = "none";
