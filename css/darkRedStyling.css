@@ -732,6 +732,91 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2em;
   float: left;
 }
+.experience {
+	margin-left: 70px;
+	padding: 10px 0px;
+}
+
+.experience-item {
+	position: relative;
+	margin: 40px 15px;
+}
+
+.experience-circle {
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	border-radius: 100%;
+	position: absolute;
+	left: -60px;
+	color: #fff;
+    background: #b71c1c;
+	padding-top: 25px;
+    box-shadow: -5px 6px 4px 0px rgba(90, 91, 95, 0.3);
+}
+
+.experience-circle i {
+	display: block;
+	font-size: 40px;
+}
+
+.experience-circle p {
+	font-size: 11px;
+	margin-top: 5px;
+}
+
+.experience-content {
+	margin-left: 80px;
+	position: relative;
+	background: #fff;
+	border: 2px solid #f7639a;
+	border-radius: 6px;
+	padding: 20px 25px;
+}
+
+.experience-content h4 {
+	line-height: 30px;
+}
+
+.experience-content:after,
+.experience-content:before {
+	right: 100%;
+	top: 35%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.experience-content:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #ffffff;
+	border-width: 12px;
+	margin-top: -20px;
+}
+
+.experience-content:before {
+	border-color: rgba(238, 238, 238, 0);
+	border-right-color: #f7639a;
+	border-width: 16px;
+	margin-top: -21px;
+}
+
+.experience-content p {
+	color: #696969;
+}
+
+.experience-color-red {
+	border: 2px solid #b71c1c !important;
+}
+
+.experience-color-red:before {
+	border-right-color: #b71c1c !important;
+}
 #fh5co-testimonials .speech-bubble-left {
   position: relative;
   background: #b71c1c;
