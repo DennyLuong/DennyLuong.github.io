@@ -1602,7 +1602,7 @@ h1, h2, h3, h4, h5, h6 {
     to {top:0; opacity:1}
 }
 .modalDialog {
-  position: fixed;
+  position: absolute;
   font-family: "Source Sans Pro", Arial, sans-serif;
   top: 0;
   right: 0;
