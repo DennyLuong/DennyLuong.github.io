@@ -1580,6 +1580,7 @@ h1, h2, h3, h4, h5, h6 {
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
+    overflow: visible;
     z-index: 1500; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
@@ -1605,6 +1606,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   font-family: "Source Sans Pro", Arial, sans-serif;
   top: 0;
+  overflow: visible;
   right: 0;
   bottom: 0;
   left: 0;
@@ -1623,7 +1625,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .modalDialog > div {
-  width: 70%;
+  width: 60%;
   position: relative;
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
